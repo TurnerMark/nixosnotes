@@ -5,6 +5,7 @@ My notes on nixos installs
 ## Install
 
 ```
+dont install anything !
 ```
 
 ## Usage
