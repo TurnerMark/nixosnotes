@@ -19,4 +19,4 @@ PRs accepted.
 
 ## License
 
-MIT © Richard McRichface
+MIT © Mark Turner
