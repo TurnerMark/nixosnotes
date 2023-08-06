@@ -51,7 +51,7 @@ you can now ssh into your new installer VM which will allow you to copy and past
 
 In order to login as root without any password, we need to set up our keys, and according to https://nixos.wiki/wiki/SSH_public_key_authentication we start here
 
-In your host machine shell, in your own userspace, make a directory called serverkeys, and enter it.
+In your host machine shell, in your own userspace, make a directory called serverkeys,
 ```
        ssh-keygen -b 1024 -f serverkeys/id_rsa
 ```
@@ -78,6 +78,7 @@ As I am using an M.2, or SSD  I dont want a swap space, so make a standard msdos
 
 A note on the manual for GNU Parted states that cheap flash drives should be 4K block aligned, so we insert could insert a special partition to do this, 
 and as we also need a boot partition I will attempt to combine forced alignment and boot partition at 32Mb - so we had crashes and gone back to standard partition.
+This VM is bootable with an ext4 filesystem, so a single partition is all that is needed.
 
 so using parted the script is
 ```
