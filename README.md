@@ -1,3 +1,21 @@
 # nixosnotes
-Notes from making nixos labs
-August 2023
+
+My notes on nixos installs
+
+## Install
+
+```
+```
+
+## Usage
+
+```
+```
+
+## Contributing
+
+PRs accepted.
+
+## License
+
+MIT © Richard McRichface
