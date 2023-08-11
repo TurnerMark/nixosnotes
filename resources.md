@@ -16,5 +16,9 @@ and introductory nix stuff which you really need to read first is here :-
 
 https://nixos.org/guides/nix-pills/
 
+Understanding IPFS Content Identifiers (CID's)
+https://docs.ipfs.tech/concepts/content-addressing/#what-is-a-cid
+
+
 
 
