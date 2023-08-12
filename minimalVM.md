@@ -33,6 +33,9 @@ VBoxManage modifyvm nixos --nested-hw-virt on
 ```
 restart VirtualBox and it should now be ticked.
 
+on my W11 machine, VBoxManage was not in my path, so you may have to navigate to Program Files/oracle/virtualbox/ to run it.
+
+
 finally add some shared workspace to your VM - I have a G:\ drive which I map using the shared folders option for my VM
 
 after creating the drive and starting the VM I get the nixos install menu, and pick the first option.
