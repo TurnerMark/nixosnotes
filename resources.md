@@ -20,6 +20,10 @@ Understanding IPFS Content Identifiers (CID's)
 
 https://docs.ipfs.tech/concepts/content-addressing/#what-is-a-cid
 
+Deploying using nixops
+https://gist.github.com/Kirens/b85e069514e718ae74ec8dc681ad6f5a
+
+
 
 
 
